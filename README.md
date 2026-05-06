@@ -1,22 +1,22 @@
 # Academic Grade Monitoring System
 
-Automation system that monitors university grade updates and sends instant Telegram notifications when new grades are published.
+Üniversite not sistemindeki değişiklikleri takip ederek Telegram üzerinden anlık bildirim gönderen otomasyon sistemi.
 
 ---
 
-## Features
+## Özellikler
 
-- Automated login session support
-- Grade monitoring system
-- Telegram notification integration
-- Session expiration detection
-- Browser automation with Playwright
-- HTML parsing with BeautifulSoup
-- Persistent browser profile support
+- Otomatik oturum desteği
+- Not takip sistemi
+- Telegram bildirim entegrasyonu
+- Oturum düşmesi tespiti
+- Playwright ile tarayıcı otomasyonu
+- BeautifulSoup ile HTML ayrıştırma
+- Kalıcı tarayıcı profili desteği
 
 ---
 
-## Technologies Used
+## Kullanılan Teknolojiler
 
 - Python
 - Playwright
@@ -27,21 +27,21 @@ Automation system that monitors university grade updates and sends instant Teleg
 
 ---
 
-## Installation
+## Kurulum
 
-Clone the repository:
+Projeyi klonlayın:
 
 ```bash
-git clone https://github.com/yourusername/academic-grade-monitoring-system.git
+git clone https://github.com/kullaniciadi/academic-grade-monitoring-system.git
 ```
 
-Install dependencies:
+Gerekli kütüphaneleri yükleyin:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Install Playwright browser:
+Playwright tarayıcısını kurun:
 
 ```bash
 playwright install
@@ -49,9 +49,9 @@ playwright install
 
 ---
 
-## Environment Variables
+## Ortam Değişkenleri
 
-Create a `.env` file in the project directory:
+Proje klasöründe `.env` dosyası oluşturun:
 
 ```env
 BOT_TOKEN=your_bot_token
@@ -60,7 +60,7 @@ CHAT_ID=your_chat_id
 
 ---
 
-## Run The Project
+## Projeyi Çalıştırma
 
 ```bash
 python app.py
@@ -68,26 +68,16 @@ python app.py
 
 ---
 
-## System Workflow
+## Sistem İşleyişi
 
-1. User logs into the university portal
-2. System monitors grade page periodically
-3. Grade changes are detected automatically
-4. Telegram notification is sent instantly
-5. Session expiration is monitored continuously
-
----
-
-## Future Improvements
-
-- Multi-user support
-- Web dashboard
-- Mobile push notifications
-- Docker support
-- AI-based grade analysis
+1. Kullanıcı üniversite sistemine giriş yapar
+2. Sistem belirli aralıklarla not sayfasını kontrol eder
+3. Not değişiklikleri otomatik olarak algılanır
+4. Telegram üzerinden anlık bildirim gönderilir
+5. Oturum düşmesi sürekli kontrol edilir
 
 ---
 
-## Disclaimer
+## Not
 
-This project was developed for educational and personal automation purposes.
+Bu proje eğitim ve kişisel otomasyon amacıyla geliştirilmiştir.
